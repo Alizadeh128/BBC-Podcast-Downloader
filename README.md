@@ -30,16 +30,13 @@ Built with a clean GUI using Tkinter, it allows you to browse, filter, and save 
 
 
 2. **Install Dependencies**
-   Make sure you have Python 3.7 or higher installed, then run:
+   Make sure you have Python 3.7 or higher installed, then run
 
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. **Run the Application**
 
    ```bash
-   python main.py
+   python BBC Podcast Downloader.py
    ```
 
 ---
