@@ -5,14 +5,14 @@ from tkinter import ttk, scrolledtext, messagebox, filedialog
 from threading import Thread
 import re
 from urllib.parse import urljoin
-import pyperclip  # برای دسترسی به clipboard
+import pyperclip 
 
 class PodcastScraper:
     def __init__(self, root):
         self.root = root
         self.root.title("BBC Podcast Scraper")
         self.episode_links = []
-        self.failed_links = []  # برای ذخیره لینک‌های ناموفق
+        self.failed_links = [] 
         self.create_widgets()
 
     def create_widgets(self):
